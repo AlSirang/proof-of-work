@@ -1,0 +1,22 @@
+{
+  "name": "proof-of-work",
+  "version": "1.0.0",
+  "description": "Basic proof of work miner.",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "ethereum-cryptography": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
